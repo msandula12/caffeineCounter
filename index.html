@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<!-- CSS compiled in Stylus -->
+	<link rel="stylesheet" href="styles.css">
+	<title>Caffeine Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<h2>How many cups of coffee did you drink today?</h2>
+		<fieldset>
+			<input type="radio" name="cups" value="1">1
+			<input type="radio" name="cups" value="2">2
+			<input type="radio" name="cups" value="3">3
+			<input type="radio" name="cups" value="4">4
+			<input type="radio" name="cups" value="5">5
+			<button onclick="coffee()">Submit</button>
+		</fieldset>
+		<p id="caffeine"></p>
+		<p id="limit"></p>
+	</div>
+
+	<!-- JS written in CoffeeScript -->
+	<script src="app.js"></script>
+</body>
+</html>
